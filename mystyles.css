@@ -27,3 +27,18 @@ font-family: poppins;
 text-transform: uppercase;
 font-weight: bold;
 }
+.wrapper ul li:hover{
+background: crimson; 
+}
+
+.wrapper ul ul{
+display: none;
+}
+.wrapper ul li:hover > ul{
+display: block;
+}
+.wrapper ul ul ul{
+margin-left: 170px;
+top: 0;
+position: absolute;
+}

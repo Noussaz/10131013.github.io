@@ -1,4 +1,4 @@
-   font-family: Arial, "Times New Roman",
+ font-family: Arial, "Times New Roman",
           Times, serif;
 		  color: Beige;
     background-color: #FAEBD7 }
@@ -18,7 +18,7 @@
     margin: 0.7em 0;
     padding: 0.5em;
     border-right: 1em solid black }
-  ul.navbar a {
+  ul.wrapper a {
     text-decoration: none }
   a:link {
     color: FloralWhite }

@@ -2,32 +2,34 @@
           Times, serif;
 		  color: Beige;
     background-color: #FAEBD7 }
-	 ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-		ul.navbar li {
-    background: white;
-    margin: 0.7em 0;
-    padding: 0.5em;
-    border-right: 1em solid black }
-  ul.wrapper a {
-    text-decoration: none }
-  a:link {
-    color: FloralWhite }
-  a:visited {
-    color: FireBrick }
-	address {
-    margin-top: 2em;
-    padding-top: 2em;
-    border-top: thin dotted }
- body {
-   padding-left: 13em;
+	
+.dropbtn {
+  background-color: #FFFFF0;
+  color: Lavender;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CD5C5C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+

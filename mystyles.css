@@ -3,14 +3,6 @@
 		  color: Beige;
     background-color: #FAEBD7 }
 	
-.dropbtn {
-  background-color: #FFFFF0;
-  color: Lavender;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
